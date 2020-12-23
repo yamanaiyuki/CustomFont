@@ -2,7 +2,7 @@
 
 CustomFontはKerbal Space Programのアドオン(MOD)です。フォントを差し替え綺麗にします。
 
-[notosansjp.png](https://raw.githubusercontent.com/yamanaiyuki/CustomFont/images/notosansjp.png)
+![notosansjp.png](https://raw.githubusercontent.com/yamanaiyuki/CustomFont/images/notosansjp.png)
 
 # 詳細
 

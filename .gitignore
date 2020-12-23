@@ -354,3 +354,7 @@ $RECYCLE.BIN/
 Thumbs.db
 ehthumbs.db
 Desktop.ini
+
+*.dll
+.hg/
+.hgignore

@@ -358,3 +358,5 @@ Desktop.ini
 *.dll
 .hg/
 .hgignore
+
+BuildConfig.xml

@@ -30,7 +30,7 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
-  <Import Condition="Exists('..\UserConfig.xml')" Project="..\UserConfig.xml" />
+  <Import Condition="Exists('..\BuildConfig.xml')" Project="..\BuildConfig.xml" />
   <ItemGroup>
     <Reference Include="$(KSPDllPath)Assembly-CSharp.dll">
       <Private>False</Private>

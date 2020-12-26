@@ -4,10 +4,12 @@
 
   <PropertyGroup>
     
-    <!-- ここにKSPのパス(dllが入ってる場所)を入れる -->
+    <!-- このファイルをコピーしてBuildConfig.xmlというファイルを新たに作る -->
+    
+    <!-- (dllが入ってる場所を設定するため)ここにKSPのパスを入れる -->
     <!-- 変更したらIDE(Visual StudioとかMonodevelopとか...)でソリューションの更新すると反映される -->
     <KSPPath>C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\</KSPPath>
-    <KSPDllPath>C:\Program Files (x86)\Steam\steamapps\common\Kerbal Space Program\KSP_x64_Data\Managed\</KSPDllPath>
-
+    <KSPDllPath>$(KSPPath)KSP_x64_Data\Managed\</KSPDllPath>
+    
   </PropertyGroup>
 </Project>
